@@ -1,6 +1,7 @@
 Projet OS :
 
 -> Technologie wifi pour la communication entre l'esp et l'ordinateur.
+Mode station sur l'esp (connecter l'esp à un routeur ex wifi de l'isen)
 
 -> A partir du terminal on envoit des commandes à l'esp pour allumer éteindre une LED
 ex : led on = allumer led 
@@ -20,3 +21,5 @@ Chef de projet : Dorian
 Archi soft : Sasha
 Admin Sys : Lucas
 Commerciale : Marine
+
+
