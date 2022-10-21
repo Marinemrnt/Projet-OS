@@ -1,0 +1,13 @@
+Projet OS :
+
+-> Technologie wifi pour la communication entre l'esp et l'ordinateur.
+
+-> A partir du terminal on envoit des commandes à l'esp pour allumer éteindre une LED
+ex : led on = allumer led 
+led off = éteindre la led
+
+-> Gestion des processus et les signaux.
+
+-> IHM visuel pour lister les commandes possibles à envoyer sur l'esp (version finale si communication opérationnelle)
+
+-> Possibilité d'historique/ fichier log
