@@ -6,6 +6,7 @@ Mode station sur l'esp (connecter l'esp à un routeur ex wifi de l'isen)
 -> A partir du terminal on envoit des commandes à l'esp pour allumer éteindre une LED
 ex : led on = allumer led 
 led off = éteindre la led
+Feedback de l'esp sur l'état de la Led
 
 -> Gestion des processus et les signaux.
 
