@@ -1,11 +1,8 @@
 
 		User guide processus
-
-Prerequis:
--Parametrer ESP32
--Connecter l'ordinateur a la même wifi que l'esp32
--libraire curl telecharger
+		
+Installer la libraire curl
 
 1-lancer la commande "gcc pere.c -o P"
 2-lancer la commande "gcc fils.c -o F"
-3-lancer le programme "P"
+3-lancer le programme "./P"
