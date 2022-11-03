@@ -1,1 +1,21 @@
+USER GUIDE ARDUINO ESP32
+Sur l'IDE Arduino 
 
+Installer l'extention permettant de programmer un ESP32 :
+Dans fichier > préférences entre les URL suivant pour ajouter l'extension.
+https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json, 
+http://arduino.esp8266.com/stable/package_esp8266com_index.json
+Installer l'extension en allant dans outils > carte > gestionnaire de cartes > esp32
+
+Installer les bibliothèques fonctionnelles :
+Aller dans croquis > inclure une bibliothèque > ajouter la bibliothèque .zip
+Ajouter les bibliothèques AsyncTCP-master.zip et ESPAsyncWebServer.zip
+
+Paramétrer la connexion wifi : 
+Ligne 9 du code: nom du réseau wifi
+ligne 10 du code: mot de passe du réseau
+
+Moniteur série : 
+Ouvrir le moniteur série à 115200 baud
+Suivre l'état de la connexion
+Observer les commandes reçu avec l'IP du demandeur
