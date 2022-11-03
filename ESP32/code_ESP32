@@ -16,7 +16,7 @@ void setup(){
     digitalWrite(LED, LOW);
     
     // Set WiFi
-    WiFi.mode(WIFI_STA); //Optional
+    WiFi.mode(WIFI_STA);
     WiFi.begin(ssid, password);
     Serial.println("\nConnecting");
     int timeout_counter = 0;
