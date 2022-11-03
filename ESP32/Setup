@@ -1,5 +1,4 @@
-USER GUIDE ARDUINO ESP32
-Sur l'IDE Arduino 
+SETUP IDE ARDUINO - ESP32
 
 Installer l'extention permettant de programmer un ESP32 :
 Dans fichier > préférences entre les URL suivant pour ajouter l'extension.
