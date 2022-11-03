@@ -9,8 +9,7 @@
 
 #define LINE_BUFSIZE 128
 
-
-void ON (){
+void ON (int sig){
 
         FILE *fp;
         int status;
@@ -27,15 +26,14 @@ void ON (){
 
         linenr = 1;
         while (fgets(line, LINE_BUFSIZE, fp) != NULL) {
-	   printf("Reponse %d: %s", linenr, line);
+        printf("Reponse %d: %s", linenr, line);
         ++linenr;}
 
         status = pclose(fp);
-        printf("Programme termine");
-        exit(3);
+        printf("Programme fils termine");
+        exit(0);
 }
-
-void OFF (){
+void OFF (int sig){
 
         FILE *fp;
         int status;
@@ -52,14 +50,13 @@ void OFF (){
 
         linenr = 1;
         while (fgets(line, LINE_BUFSIZE, fp) != NULL) {
-		printf("Reponse %d: %s", linenr, line);                                                                                     ++linenr;}
+                printf("Reponse %d: %s", linenr, line);                                                                                     ++linenr;}
 
         status = pclose(fp);
-        printf("Programme termine");
-        exit(3);
+        printf("Programme fils termine");
+        exit(0);
 
 }
-
 int main(void)
 {
         signal(SIGUSR1, ON);
@@ -70,3 +67,4 @@ int main(void)
         }
 
 }
+
